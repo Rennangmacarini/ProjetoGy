@@ -1,0 +1,46 @@
+.global {
+    color: var(--white);
+    margin: 8rem 0rem 5rem;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin: 5rem 0rem;
+
+        img {
+            width: 200px;
+        }
+
+        .content {
+            h1 {
+                margin-bottom: 1rem;
+            }
+            p{
+                font-weight: 100;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: var(--gray-900);
+    }
+
+    .text {
+        margin: auto;
+        width: 700px;
+
+        h2 {
+            font-size: 1.5rem;
+            margin: 2rem 0rem;
+            span{
+                font-size: 2rem;
+                margin-left: 5rem;
+                color: var(--gray-900);
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+
+
+.container {
+
+    .banner{
+        width: 100%;
+        height: calc(100vh + 100px);
+        object-fit: cover;
+    }
+
+    .content{
+        color: var(--white);
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 5rem;
+        margin-top: 5rem;
+        margin-right: 1rem;
+
+        text-align: center;
+
+        .title {
+            h1{
+                font-size: 2.5rem;
+            }
+            
+            p{
+                font-size: 1.2rem;
+            }
+
+        }
+
+       
+        .paragraph {
+            margin: 3rem 0rem;
+            line-height: 2rem;
+
+            p{
+                font-size: 1.5rem;
+
+            }
+        }
+
+        .button {
+
+            h2{
+                margin: 0 auto;
+                background-color: var(--gray-900);
+                width: 500px;
+                padding: 1rem;
+                border-radius: 18px;
+            }
+        }
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        margin: 2rem;
+        width: 200px;
+    }
+}
