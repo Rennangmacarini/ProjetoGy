@@ -27,12 +27,23 @@ export function Carousel() {
         <div ref={sliderRef} className="keen-slider">
           <div className="keen-slider__slide number-slide1">
             <img src="./assets/card-1.jpeg" alt="" />
-            <img src="./assets/card-2.jpeg" alt="" />
           </div>
           <div className="keen-slider__slide number-slide2">
-            <img src="./assets/card-1.jpeg" alt="" />
             <img src="./assets/card-2.jpeg" alt="" />
           </div>
+
+          <div className="keen-slider__slide number-slide3">
+            <img src="./assets/card-1.jpeg" alt="" />
+          </div>
+
+          <div className="keen-slider__slide number-slide4">
+            <img src="./assets/card-2.jpeg" alt="" />
+          </div>
+
+          <div className="keen-slider__slide number-slide5">
+            <img src="./assets/card-1.jpeg" alt="" />
+          </div>
+
         </div>
       </div>
 
