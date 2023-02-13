@@ -2,23 +2,23 @@
     text-align: center;
     color: var(--white);
     margin: 3rem 0rem;
+    font-family: 'Roboto', sans-serif;
 
     h1 {
-        font-weight: gothamBold;
         font-weight: 100;
         font-size: 2rem;
     }
 
     span {
-        font-family: gothamUltra;
+        font-weight: lighter;
         color: var(--gray-900);
     }
 
     .content {
+        font-family: 'Roboto', sans-serif;
         margin: 3rem 0rem;
 
         p{
-            font-family: gothamBook;
             font-weight: 100;
             font-size: 1.5rem;
         }
@@ -28,9 +28,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: 'Roboto', sans-serif;
 
         h2 {
-            font-family: gothamBook;
             font-weight: 100;
             font-size: 1.5rem;
         }
@@ -42,8 +42,8 @@
     }
 
     .text {
+        font-family: 'Roboto', sans-serif;
         h3 {
-            font-family: gothamBook;
             font-weight: 100;
             font-size: 1.5rem;
         }

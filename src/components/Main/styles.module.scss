@@ -4,12 +4,13 @@
     align-items: center;
     color: var(--white);
     gap: 1.5rem;
+    font-family: 'Roboto', sans-serif;
 
     .content {
         font-size: 1.5rem;
 
         h1 {
-            font-family: gothamUltra;
+            font-weight: lighter;
             color: var(--gray-900);
             font-size: 2rem;
         }
@@ -20,7 +21,7 @@
     }
 
     h2 {
-        font-family: gothamBold;
+        font-weight: 900;
         color: var(--gray-900);
         font-size: 2rem;
     }
@@ -32,6 +33,7 @@
     justify-content: center;
     gap: 1.5rem;
     color: var(--white);
+    font-family: 'Roboto', sans-serif;
 
     .cardText {
         padding: 1rem;
@@ -43,14 +45,14 @@
         border-radius: 18px;
 
         h3 {
-            font-family: gothamBold;
+            font-weight: bold;
             font-size: 1.5rem;
             font-weight: bolder;
             margin-bottom: 1rem;
         }
 
         p {
-            font-family: gothamBook;
+            font-weight: 900;
             font-size: 1.1rem;
         }
     }
@@ -126,6 +128,32 @@
         }
         h2 {
             font-size: 1.5rem;
+        }
+    }
+}
+
+
+@media(max-width: 600px){
+
+    .global {
+        padding: 0rem 2rem;
+        img {
+            width: 380px;
+        }
+        .content {
+            h1 {
+                font-size: 1.2rem;
+            }
+    
+            .text {
+                
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        h2 {
+            font-size: 1rem;
         }
     }
 }

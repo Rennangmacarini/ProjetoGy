@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     color: var(--white);
+    font-family: 'Roboto', sans-serif;
 
     img {
         width: 600px;
@@ -24,7 +25,7 @@
         width: 400px;
 
         h1 {
-            font-family: gothamUltra;
+           font-weight: lighter;
             font-size: 3rem;
             line-height: 2.5rem;
             font-weight: 100;
@@ -38,7 +39,7 @@
             margin: 3rem 0rem;
 
             p {
-                font-family: gothamBook;
+                font-weight: bolder;
                 font-size: 1.4rem;
 
                 span {
@@ -57,7 +58,7 @@
         }
 
         a {
-            font-family: gothamBold;
+            font-weight: 900;
             font-weight: bold;
         }
 

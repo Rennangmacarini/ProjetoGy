@@ -3,6 +3,7 @@
     justify-content: center;
     gap: 2rem;
     margin: 3rem 0rem;
+    font-family: 'Roboto', sans-serif;
     
 
     color: var(--white);
@@ -12,21 +13,22 @@
     }
 
     .text {
+        font-family: 'Roboto', sans-serif;
         h1{
-            font-family: gothamUltra;
+            font-weight: lighter;
             font-size: 2rem;
             color: var(--gray-900);
             margin: 2rem 0rem;
         }
 
         p{
-            font-family: gothamBook;
+            font-weight: bolder;
             font-weight: 100;
             font-size: 1.8rem;
         }
 
         h3 {
-            font-family: gothamBold;
+            
             text-align: center;
             width: 350px;
             padding: 0.5rem;
@@ -43,18 +45,18 @@
     color: var(--white);
     text-align: center;
     margin-bottom: 3rem;
+    font-family: 'Roboto', sans-serif;
     h1 {
-        font-family: gothamUltra;
+        font-weight: lighter;
         color: var(--gray-900); 
     }
     
     h2{
-        font-family: gothamBold;
+        font-weight: bolder;
         font-size: 2.5rem;
     }
     
     p{
-        font-family: gothamBook;
         font-weight: 200;
         font-size: 2rem;
     }
@@ -116,12 +118,12 @@
 @media(max-width: 600px){
     .global {  
         img {
-            width: 380px;
+            width: 370px;
         }
     
         .text {
             h1{
-                font-size: 1.4rem;
+                font-size: 1.3rem;
             }
     
             p{
@@ -129,19 +131,23 @@
             }
     
             h3 {
-                width: 350px;
+                width: 300px;
                 font-size: 1rem;
             }
         }
     }
     
-    .title {    
+    .title {  
+        h1{
+            font-size: 1.5rem;
+        }  
+
         h2{
-            font-size: 2rem;
+            font-size: 1.3rem;
         }
         
         p{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
     }
 }
