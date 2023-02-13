@@ -1,0 +1,167 @@
+.container {
+    text-align: center;
+    color: var(--white);
+    margin: 3rem 0rem;
+
+    h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+
+    span {
+        color: var(--gray-900);
+    }
+
+    .content {
+        margin: 3rem 0rem;
+
+        p{
+            font-weight: 100;
+            font-size: 1.5rem;
+        }
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-weight: 100;
+            font-size: 1.5rem;
+        }
+
+        img{
+            margin-top: -4rem;
+            width: 550px;
+        }
+    }
+
+    .text {
+        h3 {
+            font-weight: 100;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media(max-width: 1200px){
+    .container {
+        .title {
+            img {
+                width: 400px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 800px){
+    .container {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .content {
+            p{
+                font-size: 1rem;
+            }
+        }
+    
+        .title {
+            h2 {
+                font-size: 1rem;
+            }
+
+            img {
+                width: 350px;
+            }
+        }
+    
+        .text {
+            h3 {
+                font-size: 1rem;
+            }
+        }
+    }
+    
+}
+
+@media(max-width: 650px){
+    .container {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .content {
+            p{
+                font-size: 0.8rem;
+            }
+        }
+    
+        .title {
+            h2 {
+                font-size: 1rem;
+            }
+
+            img {
+                width: 300px;
+            }
+        }
+    
+        .text {
+            h3 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+    
+}
+
+@media(max-width: 550px){
+    .container {
+        h1 {
+            font-size: 1.2rem;
+        }
+        .title {
+            h2 {
+                font-size: 0.8rem;
+            }
+
+            img {
+                margin-top: -1rem;
+                width: 250px;
+            }
+        }
+    }
+    
+}
+
+
+@media(max-width: 470px){
+    .container {
+        h1 {
+            font-size: 1rem;
+        }
+        .title {
+            h2 {
+                font-size: 0.7rem;
+            }
+
+            img {
+                width: 200px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 470px){
+    .container {
+        .title {
+            img {
+                width: 180px;
+            }
+        }
+    }
+}
