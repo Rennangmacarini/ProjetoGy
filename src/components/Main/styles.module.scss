@@ -9,6 +9,7 @@
         font-size: 1.5rem;
 
         h1 {
+            font-family: gothamUltra;
             color: var(--gray-900);
             font-size: 2rem;
         }
@@ -19,6 +20,7 @@
     }
 
     h2 {
+        font-family: gothamBold;
         color: var(--gray-900);
         font-size: 2rem;
     }
@@ -41,12 +43,14 @@
         border-radius: 18px;
 
         h3 {
+            font-family: gothamBold;
             font-size: 1.5rem;
             font-weight: bolder;
             margin-bottom: 1rem;
         }
 
         p {
+            font-family: gothamBook;
             font-size: 1.1rem;
         }
     }

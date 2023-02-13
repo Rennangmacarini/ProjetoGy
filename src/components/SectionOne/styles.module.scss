@@ -13,17 +13,20 @@
 
     .text {
         h1{
+            font-family: gothamUltra;
             font-size: 2rem;
             color: var(--gray-900);
             margin: 2rem 0rem;
         }
 
         p{
+            font-family: gothamBook;
             font-weight: 100;
             font-size: 1.8rem;
         }
 
         h3 {
+            font-family: gothamBold;
             text-align: center;
             width: 350px;
             padding: 0.5rem;
@@ -41,14 +44,17 @@
     text-align: center;
     margin-bottom: 3rem;
     h1 {
+        font-family: gothamUltra;
         color: var(--gray-900); 
     }
     
     h2{
+        font-family: gothamBold;
         font-size: 2.5rem;
     }
     
     p{
+        font-family: gothamBook;
         font-weight: 200;
         font-size: 2rem;
     }

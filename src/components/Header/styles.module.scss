@@ -22,10 +22,12 @@
         .title {
             h1{
                 font-size: 2.5rem;
+                font-family: gothamUltra;
             }
             
             p{
                 font-size: 1.2rem;
+                font-family: gothamBook;
             }
 
         }
@@ -49,6 +51,7 @@
                 width: 500px;
                 padding: 1rem;
                 border-radius: 18px;
+                font-family: gothamBold;
             }
         }
     }

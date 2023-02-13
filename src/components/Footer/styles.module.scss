@@ -15,9 +15,11 @@
 
         .content {
             h1 {
+                font-family: gothamUltra;
                 margin-bottom: 1rem;
             }
             p{
+                font-family: gothamBold;
                 font-weight: 100;
                 font-size: 1.4rem;
             }
@@ -25,6 +27,7 @@
     }
 
     h1 {
+        font-family: gothamUltra;
         text-align: center;
         color: var(--gray-900);
     }
@@ -34,9 +37,11 @@
         width: 700px;
 
         h2 {
+            font-family: gothamBold;
             font-size: 1.5rem;
             margin: 2rem 0rem;
             span{
+                font-family: gothamUltra;
                 font-size: 2rem;
                 margin-left: 5rem;
                 color: var(--gray-900);
@@ -75,7 +80,7 @@
 
 }
 
-@media(max-width: 900px){
+@media(max-width: 800px){
 
     .global {
         .container {
@@ -115,7 +120,9 @@
 @media(max-width: 700px){
 
     .global {
+        
         .container {
+            gap: 2rem;
             h1 {
                 font-size: 1.3rem;
             }
@@ -153,17 +160,19 @@
 @media(max-width: 600px){
 
     .global {
+        
         .container {
+            gap: 1rem;
             h1 {
                 font-size: 1rem;
             }
             img {
-                width: 80px;
+                width: 60px;
             }
     
             .content {
                 p{
-                    font-size: 0.9rem;
+                    font-size: 0.8rem;
                 }
             }
         }
@@ -176,10 +185,10 @@
             }
     
             h2 {
-                font-size: 1rem;
+                font-size: 0.9rem;
                 span{
                     font-size: 1.3rem;
-                    margin-left: 2rem;
+                    margin-left: 1rem;
                 }
             }
         }

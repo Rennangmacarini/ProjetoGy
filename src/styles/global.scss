@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: gothamBold;
+    src:url(../../public/font/GothamBold.ttf)
+}
+
+@font-face {
+    font-family: gothamUltra;
+    src:url(../../public/font/Gotham-UltraItalic.otf)
+}
+
+@font-face {
+    font-family: gothamBook;
+    src:url(../../public/font/GothamBook.ttf)
+}
 
 :root {
     --white: #ffff;
